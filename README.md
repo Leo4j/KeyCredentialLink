@@ -37,3 +37,7 @@ Clear-KeyCredentials -target "ABUSECOMP$" -domain "ferrari.local" -dc "dc01.ferr
 Clear-KeyCredentials -target "ABUSECOMP$" -domain "ferrari.local" -dc "dc01.ferrari.local" -Force
 ```
 ⚠️ Warning: Clearing all keys from msDS-KeyCredentialLink is a risky operation, as it will break legitimate passwordless authentication.
+
+![KeyCred](https://github.com/Leo4j/KeyCredentialLink/assets/61951374/ac20fa27-80db-4bc7-a73f-ae265ea7cb0e)
+
+
